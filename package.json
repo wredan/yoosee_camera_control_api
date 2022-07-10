@@ -1,0 +1,16 @@
+{
+  "name": "yoosee_camera_control_api",
+  "version": "1.0.0",
+  "description": "This app let you control your yoosee camera rtsp ready using REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Danilo Santitto",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-access-token": "^1.1.6"
+  }
+}
