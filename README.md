@@ -3,7 +3,7 @@ This app lets you control your yoosee camera rtsp ready using REST API.
 
 **NB:** Keep in mind that this API may not work for your camera model because there are many different models out there.
 
-**DISCLAIMER**: Do not abuse. This API is intended to be used only on your own private property. I am not responsible of your actions on this API.
+**DISCLAIMER**: Do not abuse. This API is intended to be used only on your own private property. I am not responsible for your actions through this API.
 
 ## Requirements
 - You need to start rtsp on the yoosee app
