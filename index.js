@@ -19,7 +19,7 @@ const ipCheck = (ip) => {
 
 const firewall = (req, res, next) => {
     try {
-        let accessToken = fs.readFileSync('./token.txt', 'utf8');
+        let accessToken = fs.readFileSync('./token.txt', 'utf8').trim();
         if(accessToken !== req.params.token) return res.status(403).send('Forbidden');
         if(!ipCheck(req.params.ip)) return res.status(403).send('Not a valid IP');
         next();
